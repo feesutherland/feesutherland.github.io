@@ -1,1 +1,42 @@
-style.css
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Century Gothic", sans-serif;
+	font-size: 18px;
+	color: #222222;
+	line-height: 1.3;
+}
+
+header {
+	background-color: #137DFF;
+	padding: 20px;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	padding: 20px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+footer {
+	background-color: #cccccc;
+	padding: 20px;
+	text-align: center;
+}
+
+h2, h3 {
+	margin: 20px 0;
+}
