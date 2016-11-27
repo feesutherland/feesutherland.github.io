@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family: 'Raleway', "Century Gothic", sans-serif;
+	font-size: 18px;
+	color: #222222;
+	line-height: 1.3;
+}
+
+a {
+	color: #E8038E;
+	text-decoration: none;	
+}	
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {font-family: 'Josefin Sans', "Century Gothic", sans-serif;
+	color: #ffffff;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
