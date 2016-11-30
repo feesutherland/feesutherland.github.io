@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+
+header {
+	padding: 0 200px;
+}
+
+nav {
+	text-align: center;
+	float: left;
+}
+
+nav a:link{
+	font-family: 'Raleway', sans-serif;
+	color: #2f4f4f;
+	margin:0 32px;
+	padding-bottom:5px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+main{
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:50px 0;
+}
+
+
+section{
+	padding:50px 0;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+h1{
+	font-family: 'Josefin Sans', "Century Gothic", sans-serif;
+	font-weight: normal;
+	font-size:60px;
+	text-align:center;
+	color: #2f4f4f;
+	margin:200px 0 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+h2{
+	font-family: 'Josefin Sans', "Century Gothic", sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-size:2em;
+	margin:1em;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size:1em;
+	text-align: center;
+	line-height: 1.6em;
+}
+
+a{
+	text-decoration:none;
+	color: #201828;
+}
+
+img{
+	width:100%;
+/*	height:40px;*/
+}
+
+hr{
+	border:none;
+	width:2em;
+	margin:1em auto;
+}
+
+h2 + hr{
+	background-color: #fff;
+	height:1px;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear:both;
+}
+
+.wrapper{
+	/*background-color: yellow;*/
+	width: 90%;
+    margin: auto;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+#careers{
+	background: url(../images/image_career_2.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}
+
+
+
+
+
+
+
